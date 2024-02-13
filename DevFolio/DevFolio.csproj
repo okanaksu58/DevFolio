@@ -394,6 +394,7 @@
     <Content Include="Views\Skill\UpdateSkill.cshtml" />
     <Content Include="Views\Testimonial\TestimonialList.cshtml" />
     <Content Include="Views\Testimonial\CreateTestimonial.cshtml" />
+    <Content Include="Views\Testimonial\UpdateTestimonial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

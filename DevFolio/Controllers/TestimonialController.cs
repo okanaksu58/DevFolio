@@ -46,6 +46,7 @@ namespace DevFolio.Controllers
             var value = db.TblTestimonial.Find(p.TestimonialId);
             value.ImageUrl = p.ImageUrl;
             value.NameSurname = p.NameSurname;
+            value.Description = p.Description;
             value.Status = true;
             db.SaveChanges();
             return RedirectToAction("TestimonialList");
