@@ -490,6 +490,8 @@
     <Content Include="Views\Default\PartialFeature.cshtml" />
     <Content Include="Views\Default\PartialProfile.cshtml" />
     <Content Include="Views\Default\PartialSkill.cshtml" />
+    <Content Include="Views\Default\PartialAbout.cshtml" />
+    <Content Include="Views\Default\PartialService.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -37,5 +37,15 @@ namespace DevFolio.Controllers
             var vules = db.TblSkill.ToList();
             return PartialView(vules);
         }
+        public PartialViewResult PartialAbout()
+        {
+            var values=db.TblAbout.ToList();
+            return PartialView(values);
+        }
+        public PartialViewResult PartialService()
+        {
+            var values = db.TblService.ToList();
+            return PartialView(values);
+        }
     }
 }

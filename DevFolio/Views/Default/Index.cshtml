@@ -27,29 +27,7 @@
                                 @Html.Action("PartialSkill","Default")
                             </div>
                             <div class="col-md-6">
-                                <div class="about-me pt-4 pt-md-0">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            About me
-                                        </h5>
-                                    </div>
-                                    <p class="lead">
-                                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                        imperdiet et, porttitor
-                                        at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                        porttitor accumsan tincidunt.
-                                    </p>
-                                    <p class="lead">
-                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                        porttitor volutpat. Vestibulum
-                                        ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                                    </p>
-                                    <p class="lead">
-                                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                        Nulla porttitor accumsan
-                                        tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                    </p>
-                                </div>
+                                @Html.Action("PartialAbout", "Default")
                             </div>
                         </div>
                     </div>
@@ -59,118 +37,10 @@
     </section>
 
     <!--/ Section Services Star /-->
-    <section id="service" class="services-mf route">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="title-box text-center">
-                        <h3 class="title-a">
-                            Services
-                        </h3>
-                        <p class="subtitle-a">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <div class="line-mf"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-monitor"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Web Design</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-code-working"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Web Development</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-camera"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Photography</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Responsive Design</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Graphic Design</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Marketing Services</h2>
-                            <p class="s-description text-center">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                                provident vitae! Magni
-                                tempora perferendis eum non provident.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @Html.Action("PartialService","Default")
     <!--/ Section Services End /-->
 
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(/Templates/devfolio-master/img/counters-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
             <div class="row">
@@ -241,9 +111,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+                        <a href="~/Templates/devfolio-master/img/work-1.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
-                                <img src="img/work-1.jpg" alt="" class="img-fluid">
+                                <img src="~/Templates/devfolio-master/img/work-1.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="work-content">
                                 <div class="row">
@@ -265,9 +135,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="img/work-2.jpg" data-lightbox="gallery-mf">
+                        <a href="~/Templates/devfolio-master/img/work-2.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
-                                <img src="img/work-2.jpg" alt="" class="img-fluid">
+                                <img src="~/Templates/devfolio-master/img/work-2.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="work-content">
                                 <div class="row">
@@ -289,9 +159,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+                        <a href="~/Templates/devfolio-master/img/work-3.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
-                                <img src="img/work-3.jpg" alt="" class="img-fluid">
+                                <img src="~/Templates/devfolio-master/img/work-3.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="work-content">
                                 <div class="row">
@@ -313,9 +183,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+                        <a href="~/Templates/devfolio-master/img/work-4.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
-                                <img src="img/work-4.jpg" alt="" class="img-fluid">
+                                <img src="~/Templates/devfolio-master/img/work-4.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="work-content">
                                 <div class="row">
@@ -337,9 +207,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="img/work-5.jpg" data-lightbox="gallery-mf">
+                        <a href="~/Templates/devfolio-master/img/work-5.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
-                                <img src="img/work-5.jpg" alt="" class="img-fluid">
+                                <img src="~/Templates/devfolio-master/img/work-5.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="work-content">
                                 <div class="row">
@@ -361,9 +231,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="work-box">
-                        <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+                        <a href="~/Templates/devfolio-master/img/work-6.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
-                                <img src="img/work-6.jpg" alt="" class="img-fluid">
+                                <img src="~/Templates/devfolio-master/img/work-6.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="work-content">
                                 <div class="row">
@@ -389,7 +259,7 @@
     </section>
     <!--/ Section Portfolio End /-->
     <!--/ Section Testimonials Star /-->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(/Templates/devfolio-master/img/overlay-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
             <div class="row">
@@ -447,7 +317,7 @@
                 <div class="col-md-4">
                     <div class="card card-blog">
                         <div class="card-img">
-                            <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
+                            <a href="blog-single.html"><img src="~/Templates/devfolio-master/img/post-1.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -465,7 +335,7 @@
                         <div class="card-footer">
                             <div class="post-author">
                                 <a href="#">
-                                    <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                    <img src="~/Templates/devfolio-master/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
                                     <span class="author">Morgan Freeman</span>
                                 </a>
                             </div>
@@ -478,7 +348,7 @@
                 <div class="col-md-4">
                     <div class="card card-blog">
                         <div class="card-img">
-                            <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
+                            <a href="blog-single.html"><img src="~/Templates/devfolio-master/img/post-2.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -496,7 +366,7 @@
                         <div class="card-footer">
                             <div class="post-author">
                                 <a href="#">
-                                    <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                    <img src="~/Templates/devfolio-master/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
                                     <span class="author">Morgan Freeman</span>
                                 </a>
                             </div>
@@ -509,7 +379,7 @@
                 <div class="col-md-4">
                     <div class="card card-blog">
                         <div class="card-img">
-                            <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
+                            <a href="blog-single.html"><img src="~/Templates/devfolio-master/img/post-3.jpg" alt="" class="img-fluid"></a>
                         </div>
                         <div class="card-body">
                             <div class="card-category-box">
@@ -527,7 +397,7 @@
                         <div class="card-footer">
                             <div class="post-author">
                                 <a href="#">
-                                    <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                                    <img src="~/Templates/devfolio-master/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
                                     <span class="author">Morgan Freeman</span>
                                 </a>
                             </div>
@@ -542,7 +412,7 @@
     </section>
     <!--/ Section Blog End /-->
     <!--/ Section Contact-Footer Star /-->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/Templates/devfolio-master/img/overlay-bg.jpg)">
         <div class="overlay-mf"></div>
         <div class="container">
             <div class="row">
