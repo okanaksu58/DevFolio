@@ -9,13 +9,6 @@ DevFolio, bir yazılım geliştiricisinin portföyünü sergileyebileceği, proj
 - **Kategoriler**: Projeler, belirli kategorilere ayrılabilir (örneğin; Web Geliştirme, Mobil Uygulamalar, vs.)
 - **Responsive Tasarım**: Uygulama, mobil cihazlarda ve masaüstü bilgisayarlarda düzgün şekilde çalışacak şekilde tasarlanmıştır.
 
-## Kullanıcı Arayüzü
-
-Projeler, 3'lü sütunlarda görüntülenir ve her proje için başlık, kategori ve oluşturulma tarihi gibi bilgiler sunulur. Ayrıca projelere ait görseller de gösterilir.
-
-### Proje Görseli
-Projelere ait görseller, Lightbox ile genişletilebilir. Kullanıcılar, projeye ait görsellere tıklayarak daha büyük boyutlarda görüntüleyebilir.
-
 ## Teknolojiler
 
 - **ASP.NET MVC**: Web uygulaması için kullanılan ana framework.
